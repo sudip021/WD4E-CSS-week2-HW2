@@ -16,9 +16,15 @@ header {
 
 /* ===== NAVIGATION ===== */
 nav {
+    display: inline-block;
+    width: 80%;
     background-color: #444;
     text-align: center;
     padding: 10px;
+}
+
+nav img {
+    width: 10%;
 }
 
 nav a {
@@ -54,10 +60,10 @@ footer a {
 }
 
 /* ===== LIST ITEMS ===== */
-li {
+/* li {
     display: inline-block;
     width: 120px;
-}
+} */
 
 /* ===== HEADINGS ===== */
 h1 {
@@ -73,4 +79,39 @@ p {
 }
 footer p {
     color: #ffffff !important;
+}
+
+.skip {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: black;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip:focus {
+    top: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.grid {
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
