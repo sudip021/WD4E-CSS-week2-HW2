@@ -94,3 +94,6 @@ footer {
     text-align: center;
     padding: 15px;
 }
+footer p {
+    color: #ffffff !important;
+}
