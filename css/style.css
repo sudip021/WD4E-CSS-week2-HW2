@@ -20,6 +20,12 @@ body {
     color: white;
     padding: 8px;
 }
+.main-img {
+    width: 80%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+}
 
 .skip:focus {
     top: 10px;
