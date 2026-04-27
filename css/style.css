@@ -99,3 +99,6 @@ footer a {
     color: #66ccff;   /* bright accessible blue */
     text-decoration: underline;
 }
+footer a {
+    color: #00ffff;   /* cyan = highest visibility */
+}
