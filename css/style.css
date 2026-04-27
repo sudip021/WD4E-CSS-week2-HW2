@@ -1,18 +1,17 @@
-/* ===== RESET ===== */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ===== BODY ===== */
+/* BODY */
 body {
     font-family: Arial, sans-serif;
-    font-size: 16px;
     background-color: #f4f4f4;
 }
 
-/* ===== SKIP LINK ===== */
+/* SKIP LINK */
 .skip {
     position: absolute;
     top: -40px;
@@ -20,34 +19,33 @@ body {
     background: black;
     color: white;
     padding: 8px;
-    z-index: 100;
 }
 
 .skip:focus {
     top: 10px;
 }
 
-/* ===== HEADER ===== */
+/* HEADER */
 header {
-    background-color: #222;
+    background: #222;
     color: white;
     text-align: center;
     padding: 15px;
 }
 
-/* ===== NAV ===== */
+/* NAV */
 nav {
-    display: inline-block;   /* REQUIRED */
-    width: 80%;              /* REQUIRED */
-    background-color: #444;
+    display: inline-block;
+    width: 80%;
+    background: #444;
     padding: 10px;
 }
 
-/* FLEX NAV */
-ul.flex {
-    display: flex;           /* REQUIRED */
-    flex-wrap: wrap;         /* REQUIRED */
-    justify-content: space-around;  /* REQUIRED */
+/* FLEX */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     list-style: none;
 }
 
@@ -55,59 +53,38 @@ ul.flex {
 nav a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
 }
 
 /* NAV IMAGE */
 nav img {
-    width: 10%;   /* REQUIRED */
+    width: 10%;
 }
 
-/* ===== MAIN ===== */
+/* MAIN */
 main {
-    background-color: white;
+    background: white;
     padding: 20px;
     margin: 10px;
-    border: 2px solid #ccc;
 }
 
-/* ===== GRID ===== */
+/* GRID */
 .grid {
-    display: grid;                     /* REQUIRED */
-    grid-template-columns: 40% 40%;   /* REQUIRED */
-    justify-content: space-between;   /* REQUIRED */
-    align-items: center;              /* REQUIRED */
-    row-gap: 20px;                    /* REQUIRED */
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
 }
 
 /* ONLY GRID IMAGES */
 .grid img {
-    width: 100%;   /* REQUIRED */
+    width: 100%;
 }
 
-/* ===== TEXT ===== */
-h1 {
-    color: white;
-    font-family: Georgia, serif;
-}
-
-p {
-    line-height: 1.6;
-    color: #333;
-}
-
-/* ===== FOOTER ===== */
+/* FOOTER */
 footer {
-    background-color: #222;
+    background: #222;
     color: white;
     text-align: center;
     padding: 10px;
-}
-
-footer a {
-    color: white;
 }
