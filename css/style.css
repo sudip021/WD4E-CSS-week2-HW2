@@ -89,8 +89,8 @@ main {
 
 /* FOOTER */
 footer {
-    background: #222;
-    color: white;
+    background: #000;   /* darker background */
+    color: #ffffff;     /* pure white text */
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
