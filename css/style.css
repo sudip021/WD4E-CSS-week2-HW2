@@ -97,3 +97,7 @@ footer {
 footer p {
     color: #ffffff !important;
 }
+footer a {
+    color: #4da6ff;   /* bright accessible blue */
+    font-weight: bold;
+}
